@@ -1,0 +1,56 @@
+{
+    "Agent": {
+        "checkpoints": [
+            {
+                "steps": 5714,
+                "file_path": "results\\MartonImitate\\Agent\\Agent-5714.onnx",
+                "reward": -13.418107370065677,
+                "creation_time": 1711540392.4035876,
+                "auxillary_file_paths": [
+                    "results\\MartonImitate\\Agent\\Agent-5714.pt"
+                ]
+            },
+            {
+                "steps": 7730,
+                "file_path": "results\\MartonImitate\\Agent\\Agent-7730.onnx",
+                "reward": -1.3846153846153846,
+                "creation_time": 1711540631.4245596,
+                "auxillary_file_paths": [
+                    "results\\MartonImitate\\Agent\\Agent-7730.pt"
+                ]
+            },
+            {
+                "steps": 43340,
+                "file_path": "results\\MartonImitate\\Agent\\Agent-43340.onnx",
+                "reward": -4.482353154350729,
+                "creation_time": 1711541093.2965136,
+                "auxillary_file_paths": [
+                    "results\\MartonImitate\\Agent\\Agent-43340.pt"
+                ]
+            },
+            {
+                "steps": 74142,
+                "file_path": "results\\MartonImitate\\Agent\\Agent-74142.onnx",
+                "reward": null,
+                "creation_time": 1711573408.1983712,
+                "auxillary_file_paths": [
+                    "results\\MartonImitate\\Agent\\Agent-74142.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 74142,
+            "file_path": "results\\MartonImitate\\Agent.onnx",
+            "reward": null,
+            "creation_time": 1711573408.1983712,
+            "auxillary_file_paths": [
+                "results\\MartonImitate\\Agent\\Agent-74142.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
